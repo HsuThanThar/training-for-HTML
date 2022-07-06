@@ -1,0 +1,92 @@
+
+
+h3{background-color: brown; opacity: 50%; color: rgb(20, 230, 20);}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: width;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+    transition-delay: 0.5s;
+}
+
+#box:hover{
+    width: 400px;}
+
+@keyframes example{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+#anbox{ 
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    animation-name: example;
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+}
+
+
+
+
+
+#test1 p{
+    font-family: serif;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform:capitalize;
+    text-indent: 50px;
+    text-shadow: 2px 3px 5px blue;}
+a{
+    text-decoration: none;
+}
+#test2 p{
+    border-style: inset dashed solid;
+    border-width: 5px;
+    border-color: aqua gray palevioletred;
+    border-top-left-radius: 0.5em;
+    padding-left: 10px;
+} 
+h1{
+    margin: 30px 60px 20px 70px;
+}
+
+#test1{
+    width: 300px;
+    height: 300px;
+    background-color: orchid;
+    overflow: scroll;
+}
+image{
+    width: 20%;
+    height: auto;
+    float: left;
+   
+}
+image:hover{
+    width: 20%;
+    border:1px solid black;
+}
+
+.article{
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: lightblue;
+}
+.column1, .column2, .column3{
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
